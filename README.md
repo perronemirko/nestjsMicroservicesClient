@@ -1,3 +1,7 @@
+This is the TCP/REDIS/gRPC <B>cliend side microservices</B> from Brian Johnson tutorial on youtube. I would like to thanks Him for its tutorial on microservices.
+
+From git commit f3763532824bd6d5c1b2685426c915345ea2fcdc on it will be implemented gRPC instead of TCP/REDIS
+
 <p align="center">
   <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo_text.svg" width="320" alt="Nest Logo" /></a>
 </p>
