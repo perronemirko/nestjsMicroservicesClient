@@ -5,7 +5,7 @@ Content-Type: application/x-www-form-urlencoded
 data[0]=1
 &data[1]=2
 &data[2]=2
-&data[3]=324
+
 ###
 GET http://localhost:6000/ HTTP/1.1
 content-type: application/json

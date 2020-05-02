@@ -1,11 +1,11 @@
 import { Module } from '@nestjs/common';
 import { AppController } from './app.controller';
-import { AppService } from './app.service';
-import { MathService } from './mathservice/math.service';
+
+//import { MathService } from './mathservice/math.service'; // WE DELETE MathService BECAUSE WE DO NOT NEED IT WHILE USING GRPC 
 
 @Module({
   imports: [],
   controllers: [AppController],
-  providers: [AppService, MathService,],
+ // providers: []// WE DELETE MathService,], BECAUSE WE DO NOT NEED IT WHILE USING GRPC 
 })
 export class AppModule {}
